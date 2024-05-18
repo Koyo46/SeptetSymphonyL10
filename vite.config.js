@@ -14,4 +14,13 @@ export default defineConfig({
     }),
     react(),
     ],
+    build: {
+        rollupOptions: {
+            input: {
+                index: 'index.html',
+                app: 'resources/ts/index.tsx',
+                css: 'resources/css/app.css'
+            }
+        }
+    }
 });
