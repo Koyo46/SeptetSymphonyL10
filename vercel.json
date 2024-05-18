@@ -2,6 +2,17 @@
     "regions": [
         "hnd1"
     ],
+    "headers": [
+        {
+          "source": "/public/build/assets/(.*).js",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/javascript"
+            }
+          ]
+        }
+      ],
     "builds": [
         {
             "src": "api/index.php",
