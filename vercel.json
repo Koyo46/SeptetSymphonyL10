@@ -22,7 +22,7 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "public/build/(.*)",
+            "src": "/public/build/(.*)",
             "dest": "/public/build/$1"
         },
         {
