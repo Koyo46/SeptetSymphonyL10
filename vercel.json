@@ -10,12 +10,23 @@
         {
             "src": "public/**",
             "use": "vercel-php@0.7.0"
+        },
+        {
+            "src": "package.json",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/api/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/public/index.html",
+            "headers": {
+                "cache-control": "s-maxage=31536000,immutable"
+            }
         }
     ],
     "env": {
