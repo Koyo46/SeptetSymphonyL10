@@ -25,7 +25,7 @@
             "src": "/public/build/assets/(.*)",
             "dest": "/public/build/assets/$1",
             "headers": {
-                "Content-Type": "application/javascript"
+                "Content-Type": "text/javascript"
             }
         },
         {
