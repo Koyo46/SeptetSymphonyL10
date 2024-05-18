@@ -22,6 +22,10 @@
             "dest": "/api/index.php"
         },
         {
+            "src": "/assets/(.*)",
+            "dest": "/public/build/assets/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "/public/build/index.html",
             "headers": {
