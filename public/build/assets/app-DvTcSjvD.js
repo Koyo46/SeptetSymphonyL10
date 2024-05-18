@@ -1,0 +1,1 @@
+import{c as t,j as e,a as o}from"./client-81gZ4Fe7.js";const r=document.getElementById("app"),c=t(r);c.render(e.jsx(o.StrictMode,{children:e.jsx("div",{className:"text-red-400",children:"Hello World"})}));
