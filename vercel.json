@@ -23,7 +23,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/public/index.html",
+            "dest": "/resources/views/index.blade.php",
             "headers": {
                 "cache-control": "s-maxage=31536000,immutable"
             }
