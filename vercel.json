@@ -2,17 +2,6 @@
     "regions": [
         "hnd1"
     ],
-    "headers": [
-        {
-          "source": "/public/build/assets/(.*).js",
-          "headers": [
-            {
-              "key": "Content-Type",
-              "value": "application/javascript"
-            }
-          ]
-        }
-      ],
     "builds": [
         {
             "src": "api/index.php",
@@ -34,7 +23,13 @@
         },
         {
             "src": "/public/build/assets/(.*)",
-            "dest": "/public/build/assets/$1"
+            "dest": "/public/build/assets/$1",
+            "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/javascript"
+                }
+              ]
         },
         {
             "src": "/(.*)",
