@@ -37,10 +37,5 @@
         "DB_DATABASE": "laravel",
         "DB_USERNAME": "sail",
         "DB_PASSWORD": "password"
-    },
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.7.0"
-        }
     }
 }
