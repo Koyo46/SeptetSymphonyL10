@@ -9,7 +9,7 @@ export default defineConfig({
 
         input: [
             'resources/css/app.css',
-            'resources/ts/index.tsx'
+            'resources/ts/route.tsx'
         ],
     }),
     react(),
