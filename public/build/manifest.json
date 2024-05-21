@@ -1,0 +1,13 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-oizo88Ud.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/ts/route.tsx": {
+    "file": "assets/route-quiYk1xk.js",
+    "name": "route",
+    "src": "resources/ts/route.tsx",
+    "isEntry": true
+  }
+}
