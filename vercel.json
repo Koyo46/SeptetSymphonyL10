@@ -16,6 +16,17 @@
             "use": "@vercel/node"
         }
     ],
+    "headers": [
+        {
+          "source": "public/build/assets/(.*).js",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/javascript"
+            }
+          ]
+        }
+      ],
     "routes": [
         {
             "src": "/api/(.*)",
@@ -23,10 +34,7 @@
         },
         {
             "src": "/public/build/assets/(.*)",
-            "dest": "/public/build/assets/$1",
-            "headers": {
-                "Content-Type": "text/javascript"
-            }
+            "dest": "/public/build/assets/$1"
         },
         {
             "src": "/(.*)",
