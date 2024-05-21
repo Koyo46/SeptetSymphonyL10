@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>sample-api</title>
+        <title>SeptetSymphony</title>
 
         @viteReactRefresh
         @vite(['resources/css/app.css', 'resources/ts/route.tsx'])
