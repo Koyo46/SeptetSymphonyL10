@@ -8,10 +8,6 @@
             "use": "vercel-php@0.7.0"
         },
         {
-            "src": "public/**",
-            "use": "vercel-php@0.7.0"
-        },
-        {
             "src": "package.json",
             "use": "@vercel/node"
         }
@@ -20,10 +16,6 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-          "src": "/(.*)",
-          "dest": "/public/index.php"
         }
     ],
     "env": {
