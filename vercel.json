@@ -18,6 +18,9 @@
             "dest": "/api/index.php"
         }
     ],
+    "rewrites": [
+        { "source": "/api/(.*)", "destination": "/api/index.php" }
+    ],
     "env": {
         "APP_NAME": "Laravel Vercel",
         "APP_DEBUG": "false",
