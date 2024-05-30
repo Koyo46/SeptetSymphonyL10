@@ -29,4 +29,6 @@ Route::get('/game/{gameId}/myHandCards', function ($gameId) {
 Route::post('/game/{gameId}/start', function ($gameId) {
     return GameController::startGame($gameId);
 });
-
+Route::get('/test', function () {
+    return 'test';
+});
