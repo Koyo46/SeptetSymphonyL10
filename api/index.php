@@ -7,6 +7,9 @@ require __DIR__.'/../vendor/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+// アプリケーションをブートストラップする
+$app->boot();
+
 // APIルートのみをロードする
 $app->router->group(['prefix' => 'api'], function ($router) {
     require __DIR__.'/../routes/api.php';
