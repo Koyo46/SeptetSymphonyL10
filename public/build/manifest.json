@@ -1,32 +1,13 @@
 {
-  "_client-81gZ4Fe7.js": {
-    "file": "assets/client-81gZ4Fe7.js",
-    "name": "client"
-  },
-  "index.html": {
-    "file": "assets/index-B34-TpTT.js",
-    "name": "index",
-    "src": "index.html",
-    "isEntry": true,
-    "imports": [
-      "_client-81gZ4Fe7.js"
-    ],
-    "css": [
-      "assets/css-oizo88Ud.css"
-    ]
-  },
   "resources/css/app.css": {
-    "file": "assets/css-oizo88Ud.css",
+    "file": "assets/app-oizo88Ud.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
-  "resources/ts/index.tsx": {
-    "file": "assets/app-DvTcSjvD.js",
-    "name": "app",
-    "src": "resources/ts/index.tsx",
-    "isEntry": true,
-    "imports": [
-      "_client-81gZ4Fe7.js"
-    ]
+  "resources/ts/route.tsx": {
+    "file": "assets/route-quiYk1xk.js",
+    "name": "route",
+    "src": "resources/ts/route.tsx",
+    "isEntry": true
   }
 }
